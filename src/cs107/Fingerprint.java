@@ -150,6 +150,7 @@ public class Fingerprint {
     }
 
     //added something
+    // and again added something
     /**
      * Internal method used by {@link #thin(boolean[][])}.
      *
