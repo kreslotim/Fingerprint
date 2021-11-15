@@ -149,8 +149,6 @@ public class Fingerprint {
         return arrayEqual(image1, image2);
     }
 
-    //added something
-    // and again added something
     /**
      * Internal method used by {@link #thin(boolean[][])}.
      *
