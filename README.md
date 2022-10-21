@@ -29,7 +29,7 @@ Afin de modulariser le code, nous avons créé deux méthodes suplémentaires da
 
 
 
-Exlication de l'algorithme pour la méthode ConnectedPixels (ligne 238):
+Explication de l'algorithme pour la méthode ConnectedPixels (ligne 238):
 
 Tout d'abord, nous créons un tableau de booleans à deux dimensions vide, appelé pixRes (ce sera le tableau avec uniquement les pixels connectés).
 Puis, nous colorions le pixel correspondant au coordonées de la minutie (pixRes[row][col]) en noir, directement (car la minutie est en effet connectée à elle-même).
