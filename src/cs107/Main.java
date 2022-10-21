@@ -40,11 +40,12 @@ public class Main {
     //testThin();
     //testWithSkeleton();
 
-    //testDrawSkeleton("5_5"); //draw skeleton of fingerprint 1_1.png
-    //testDrawSkeleton("1_2"); //draw skeleton of fingerprint 1_2.png
+    //testDrawSkeleton("lexa"); //draw skeleton of fingerprint alex.png
+
+    //testDrawSkeleton("1_1"); //draw skeleton of fingerprint 1_2.png
     //testDrawSkeleton("2_1"); //draw skeleton of fingerprint 2_1.png
 
-    //testDrawMinutiae("1_1"); //draw minutiae of fingerprint 1_1.png
+    testDrawMinutiae("genia"); //draw minutiae of fingerprint 1_1.png
     //testDrawMinutiae("1_2"); //draw minutiae of fingerprint 1_2.png
     //testDrawMinutiae("2_1"); //draw minutiae of fingerprint 2_1.png
 	
@@ -53,6 +54,9 @@ public class Main {
     //---------------------------
 	//compare 1_1.png with 1_2.png: they are supposed to match
     //testCompareFingerprints("1_1", "1_2", true);  //expected match: true
+
+    //testCompareFingerprints("genia", "lexa", false);  //expected match: false
+
 
     //compare 1_1.png with 5_5.png
     //testCompareFingerprints("1_1", "1_5", true);  //expected match: false
@@ -66,8 +70,7 @@ public class Main {
     //testCompareFingerprints("1_5", "2_3", false); //expected match: false
 
 
-    //compare 1_1 with all other images of the same finger
-    //testCompareAllFingerprints("1_1", 1, true);
+    //compare 1_1 with all other images of the same fingertestCompareAllFingerprints("1_1", 1, true);
 
     //compare 1_2 with all other images of the same finger
     //testCompareAllFingerprints("1_2", 1, true);

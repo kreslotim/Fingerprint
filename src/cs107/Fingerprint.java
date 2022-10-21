@@ -6,8 +6,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import static cs107.Main.arrayEqual;
-import static cs107.Main.printArray;
 
 /**
  * Provides tools to compare fingerprint.
@@ -125,7 +123,7 @@ public class Fingerprint {
     public static int transitions(boolean[] neighbours) {
         //TODO implement
         int transitions = 0;
-        for (int i = 0 ; i < 7 ; i++) {
+        for (int i = 0 ; i < 7 ; ++i) {
             if (!neighbours[i] && neighbours[i+1]) {
                 transitions++;
             }
@@ -146,7 +144,7 @@ public class Fingerprint {
      */
     public static boolean identical(boolean[][] image1, boolean[][] image2) {
         //TODO implement
-        return arrayEqual(image1, image2);
+        return Arrays.deepEquals(image1, image2);
     }
 
     /**
